@@ -1,0 +1,64 @@
+#body1{
+    background-image: url('wall2.jpg');
+}
+
+#body2{
+    background-image: url('wall3.jpg');
+}
+
+body{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    height: 60%;
+    width: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurbox{
+    background: rgba(40, 40, 40, 0.29);
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+}
+
+.hi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin: auto;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+    margin: 5%;
+    text-align: center;
+}
+
+div:hover{
+    cursor: pointer;
+}
+
